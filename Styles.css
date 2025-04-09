@@ -1,0 +1,44 @@
+/* Shared Styles */
+body {
+    background: #0f0f1a;
+    color: #fff;
+}
+
+.movie-card {
+    cursor: pointer;
+}
+
+.subtitle-badge {
+    background: #e50914;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.movie-details {
+    display: flex;
+    padding: 20px 5%;
+    gap: 30px;
+}
+
+.detail-poster img {
+    border-radius: 8px;
+    max-height: 500px;
+}
+
+.player video {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sub-btn {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+}
